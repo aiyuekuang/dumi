@@ -11,5 +11,16 @@ export default defineConfig({
   exportStatic: {},
   base: '/dumi',
   publicPath: '/dumi/',
+  extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      'antd',
+    ],
+  ],
   // more config: https://d.umijs.org/config
 });
