@@ -2,11 +2,10 @@
  * Created by zengtao on 2017/5/19.
  */
 import React, { Fragment, useEffect, useState } from 'react';
-import { Button } from 'antd';
 //本项目的模板页面
 
 let defaultProps = {
-  title: '哈哈哈',
+  title: '哈哈哈dwsd',
 };
 
 export default function index(prop: any) {
@@ -25,10 +24,5 @@ export default function index(prop: any) {
     return () => {};
   }, []);
 
-  return (
-    <div>
-      <Button>按钮</Button>
-      {title}
-    </div>
-  );
+  return <div>{title}</div>;
 }
