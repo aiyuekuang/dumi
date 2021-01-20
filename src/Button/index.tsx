@@ -6,7 +6,7 @@ import './index.scss';
 //本项目的模板页面
 
 let defaultProps = {
-  title: '哈哈哈dwsd',
+  title: '哈哈哈dwsdswdwew',
 };
 
 export default function index(prop: any) {
