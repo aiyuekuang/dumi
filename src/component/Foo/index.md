@@ -1,12 +1,16 @@
-## Button
+---
+title: Foo
+---
+
+## Foo
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from '../index';
+import { Foo } from '../../index';
 
-export default () => <Button />;
+export default () => <Foo title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle
